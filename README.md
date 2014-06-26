@@ -5,7 +5,7 @@ BrowserLanguage
 Description
 ---------
 
-BrowserLanguage is a PHP function to detect the browser language (via HTTP Accept-Language format).
+BrowserLanguage is a PHP function to detect the browser language (via the HTTP Accept-Language format).
 
 
 Quick Example
