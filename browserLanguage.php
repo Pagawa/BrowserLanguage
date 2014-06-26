@@ -18,6 +18,7 @@ function browserLanguage($acceptLanguage)
     }
 
     foreach($acceptLanguages as $acceptLanguage) {
+        $language = [];
 
         // Language
         $primary = (stripos($acceptLanguage, ';')) ? stristr($acceptLanguage, ';', true) : $acceptLanguage;
