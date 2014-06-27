@@ -21,14 +21,14 @@ function browserLanguage($acceptLanguage)
         $language = [];
 
         // Language
-        $primary = (stripos($acceptLanguage, ';')) ? stristr($acceptLanguage, ';', true) : $acceptLanguage;
-        $primary = trim($primary);
+        $lang = (stripos($acceptLanguage, ';')) ? stristr($acceptLanguage, ';', true) : $acceptLanguage;
+        $lang = trim($lang);
 
-        if (stripos($primary, '-')) {
-            $language['primary'] = stristr($primary, '-', true);
-            $language['full'] = $primary;
+        if (stripos($lang, '-')) {
+            $language['lang'] = stristr($lang, '-', true);
+            $language['full'] = stristr($lang, '-', true) . mb_strtoupper(stristr($lang, '-'));
         } else {
-            $language['primary'] = $primary;
+            $language['lang'] = $lang;
         }
 
         // Qvalue
