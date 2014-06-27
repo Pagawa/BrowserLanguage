@@ -31,27 +31,27 @@ Array
 (
     [0] => Array
         (
-            [primary] => fr
+            [lang] => fr
             [qvalue] => 1
         )
 
     [1] => Array
         (
-            [primary] => fr
-            [full] => fr-fr
+            [lang] => fr
+            [full] => fr-FR
             [qvalue] => 0.8
         )
 
     [2] => Array
         (
-            [primary] => en
-            [full] => en-us
+            [lang] => en
+            [full] => en-US
             [qvalue] => 0.5
         )
 
     [3] => Array
         (
-            [primary] => en
+            [lang] => en
             [qvalue] => 0.3
         )
 )
